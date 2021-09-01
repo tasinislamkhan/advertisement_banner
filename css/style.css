@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 315px;
+    width: 815px;
+    background-color: #16192A;
+    margin-left: 275px;
+    margin-top: 150px;
+    position: relative;
+}
+.container .text_side{
+    height: 270px;
+    width: 370px;
+    margin-left: 55px;
+    margin-top: 22px;
+    position: absolute;
+}
+.container .text_side .banner_tag1 h2{
+    color: red;
+}
