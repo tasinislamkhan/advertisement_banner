@@ -1,23 +1,200 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
-.container{
-    height: 315px;
-    width: 815px;
-    background-color: #16192A;
-    margin-left: 275px;
-    margin-top: 150px;
-    position: relative;
+.container {
+  height: 315px;
+  width: 815px;
+  background-color: #16192a;
+  margin-left: 275px;
+  margin-top: 150px;
+  position: relative;
 }
-.container .text_side{
-    height: 270px;
-    width: 370px;
-    margin-left: 55px;
-    margin-top: 22px;
+.container .text_side {
+  height: 270px;
+  width: 370px;
+  margin-left: 55px;
+  position: absolute;
+}
+.container .text_side .subtag {
+  margin-top: 45px;
+}
+.container .text_side .banner_tag1 h2 {
+  color: #f0b00c;
+  text-transform: uppercase;
+  font-size: 29px;
+  word-spacing: -8px;
+}
+.container .text_side .banner_tag1 h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 44px;
+  word-spacing: -7px;
+
+}
+.container .text_side .banner_tag1 .description {
+  width: 330px;
+}
+.container .text_side .banner_tag1 p {
+  color: rgb(182, 182, 182);
+  text-align: left;
+}
+.container .text_side .banner_tag1 .hire_me {
+  height: 20px;
+  width: 100px;
+  background-color: #f0b00c;
+  color: black;
+  border-radius: 13px;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 30px;
+  display: inline-block;
+}
+.container .text_side .banner_tag1 .hire_me h3 {
+    margin-left: 14px;
+    margin-top: 1px;
+    position: absolute;
+    font-size: 17px;
+}
+.text_side .social_link .site {
+  height: 18px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.text_side .social_link .site i{
+    color: #f0b00c;
+float: left;
+font-size: 15px;
+margin-top: 1px;
+}
+.text_side .social_link .site h5{
+    font-family: "Roboto";
+    float: left;
+    margin-left: 4px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.text_side .social_link .phone {
+  height: 18px;
+  width: 150px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: -20px;
+}
+.text_side .social_link .phone #phne_icn_bg{
+    background-color: #f0b00c;
+    height: 15px;
+    width: 15px;
+    margin-top: 1px;
+    border-radius: 15px;
+}
+.text_side .social_link .phone i{
+    float: left;
+    margin-top: -13px;
+    font-size: 10px;
+    margin-left: 3px;
+}
+.text_side .social_link .phone h5{
+    float: left;
+    margin-left: 19px;
+    margin-top: -15px;
+    color: white;
+    font-size: 15px;
+    font-family: "roboto"
+    font-weight: 500;
+}
+.text_side .social_link .all_social {
+  height: 18px;
+  width: 340px;
+  margin-top: 5px;
+  margin-left: -3px;
+}
+.text_side .social_link .all_social i{
+    color: #f0b00c;
+    margin-left: 3px;
+}
+.text_side .social_link .all_social h3{
+    float: right;
+    color: white;
+    margin-right: 3px;
+    margin-top: -2px;
+    font-size: 16px;
+    font-family: "roboto";
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.container .middle_dots{
+    color: #f0b00c;
+    margin-left: 430px;
+    margin-top: 230px;
+    position: absolute;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.container .profile_circle{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 44px;
     position: absolute;
 }
-.container .text_side .banner_tag1 h2{
-    color: red;
+.container .profile_circle img{
+  height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.container .profile_circle i{
+  color: white;
+  transform: rotate(
+-40deg
+);
+  font-size: 30px;
+  margin-left: 204px;
+  position: absolute;
+  margin-top: -215px;
+}
+.container .profile_circle .shape2{
+  margin-left: -180px;
+  margin-top: 122px;
+}
+.container .profile_circle .shape2 i{
+  margin-left: 202px;
+  margin-top: -162px;
+}
+.container .profile_circle .shape3{
+  margin-top: -195px;
+  margin-left: 106px;
+  transform: rotate(-48deg);
+}
+.container .profile_circle .shape3 i{
+  color: #f0b00c;
+  font-size: 20px;
+  opacity: 0.5;
+  display: inline-block;
+  margin-top: -78px;
+  margin-left: 255px;
+}
+.container .profile_circle .shape3 span i{
+  color: #f0b00c;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-top: -73px;
+    margin-left: 249px;
+}
+.container .profile_circle .shape4 i{
+  font-size: 220px;
+    display: inline-block;
+    margin-left: -601px;
+    margin-top: -39px;
+    opacity: .1;
 }
