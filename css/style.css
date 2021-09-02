@@ -216,6 +216,17 @@ margin-top: 1px;
     margin-top: -39px;
     opacity: .1;
 }
+.container .profile_circle .shape5{
+  display: inline-block;
+}
+.container .profile_circle .shape5 i{
+  display: inline-block;
+  margin-left: -50px;
+  opacity: 0.1;
+  margin-top: -180px;
+  font-size: 40px;
+  color: #f0b00c;
+}
 .container .profile_circle .overshape1{
   margin-left: 255px;
   margin-top: -153px;
