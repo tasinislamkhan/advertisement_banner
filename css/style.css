@@ -17,9 +17,17 @@
   width: 370px;
   margin-left: 55px;
   position: absolute;
+  margin-top: -12px;
 }
 .container .text_side .subtag {
   margin-top: 45px;
+}
+.container .text_side .subtag h4{
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  word-spacing: -2px;
+  font-weight: 400;
 }
 .container .text_side .banner_tag1 h2 {
   color: #f0b00c;
@@ -32,14 +40,25 @@
   text-transform: uppercase;
   font-size: 44px;
   word-spacing: -7px;
-
 }
-.container .text_side .banner_tag1 .description {
-  width: 330px;
+.container .text_side .banner_tag1 h1 span{
+  color: #f0b00c;
+  margin-top: 0px;
+  margin-left: -3px;
+  position: absolute;
 }
-.container .text_side .banner_tag1 p {
-  color: rgb(182, 182, 182);
-  text-align: left;
+.container .text_side .banner_tag1 .description{
+  height: 70px;
+  width: 338px;
+  font-size: 11px;
+  text-align: justify;
+  color: rgb(231, 220, 220);
+  text-transform: capitalize;
+  word-spacing: -1px;
+}
+.container .text_side .banner_tag1 .description span{
+  color: #f0b00c;
+  text-transform: uppercase;
 }
 .container .text_side .banner_tag1 .hire_me {
   height: 20px;
@@ -49,7 +68,6 @@
   border-radius: 13px;
   text-transform: uppercase;
   position: relative;
-  margin-top: 30px;
   display: inline-block;
 }
 .container .text_side .banner_tag1 .hire_me h3 {
@@ -197,4 +215,28 @@ margin-top: 1px;
     margin-left: -601px;
     margin-top: -39px;
     opacity: .1;
+}
+.container .profile_circle .overshape1{
+  margin-left: 255px;
+  margin-top: -153px;
+  position: absolute;
+  display: inline-block;
+  transform: rotate( 
+-179deg
+);
+}
+.container .profile_circle .overshape1 i{
+  color: #16192a;
+}
+.container .profile_circle .overshape2{
+  display: inline-block;
+  position: absolute;
+  margin-top: -329px;
+  margin-left: 434px;
+  transform: rotate( 
+-541deg
+);
+}
+.container .profile_circle .overshape2 i{
+  color: #16192a;
 }
