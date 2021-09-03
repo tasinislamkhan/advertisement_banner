@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
 }
+body{
+  background-color: white
+}
 .container {
   height: 315px;
   width: 815px;
@@ -158,7 +161,7 @@ margin-top: 1px;
 .container .profile_circle{
     height: 250px;
     width: 250px;
-    background-color: white;
+    background-color: #ffffff33;
     border-radius: 50%;
     margin-left: 500px;
     margin-top: 44px;
@@ -172,7 +175,7 @@ margin-top: 1px;
     margin-top: 15px;
 }
 .container .profile_circle i{
-  color: white;
+  color: #454755;
   transform: rotate(
 -40deg
 );
@@ -188,6 +191,7 @@ margin-top: 1px;
 .container .profile_circle .shape2 i{
   margin-left: 202px;
   margin-top: -162px;
+  color: #454755;
 }
 .container .profile_circle .shape3{
   margin-top: -195px;
